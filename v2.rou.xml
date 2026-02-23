@@ -49,7 +49,7 @@
     <flow id="flow_12" type="bg_car" route="route_v6" begin="0" end="3600" probability="0.08" departLane="random" departSpeed="random"/>
 
     <!-- Main Experiment Vehicles -->
-    <vehicle id="leader" type="leader_type" route="long_route" depart="0" departLane="1" departSpeed="13" departPos="base"/>
-    <vehicle id="follower" type="follower_type" route="long_route" depart="1" departLane="1" departSpeed="10" departPos="base"/>
+    <vehicle id="leader" type="leader_type" route="long_route" depart="1" departLane="1" departSpeed="13" departPos="free"/>
+    <vehicle id="follower" type="follower_type" route="long_route" depart="2" departLane="1" departSpeed="10" departPos="free"/>
 
 </routes>
