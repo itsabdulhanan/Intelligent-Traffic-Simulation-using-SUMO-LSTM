@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+    <input>
+        <net-file value="v2.net.xml"/>
+        <route-files value="v2.rou.xml"/>
+    </input>
+    <gui_only>
+        <gui-settings-file value="view_settings.xml"/>
+    </gui_only>
+</configuration>

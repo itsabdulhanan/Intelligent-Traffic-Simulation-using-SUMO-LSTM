@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <!-- West-East Axis -->
+    <edge id="W2C" from="west" to="center" priority="10" numLanes="3" speed="20.0"/>
+    <edge id="C2E" from="center" to="east" priority="10" numLanes="3" speed="20.0"/>
+    <edge id="E2C" from="east" to="center" priority="10" numLanes="3" speed="20.0"/>
+    <edge id="C2W" from="center" to="west" priority="10" numLanes="3" speed="20.0"/>
+    
+    <!-- North-South Axis -->
+    <edge id="N2C" from="north" to="center" priority="10" numLanes="3" speed="20.0"/>
+    <edge id="C2S" from="center" to="south" priority="10" numLanes="3" speed="20.0"/>
+    <edge id="S2C" from="south" to="center" priority="10" numLanes="3" speed="20.0"/>
+    <edge id="C2N" from="center" to="north" priority="10" numLanes="3" speed="20.0"/>
+</edges>
